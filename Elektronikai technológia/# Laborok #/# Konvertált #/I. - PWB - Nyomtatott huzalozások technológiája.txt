@@ -1,0 +1,405 @@
+I. Nyomtatott huzalozások technológiája
+
+I. Nyomtatott huzalozások technológiája
+A mérés célja: a nyomtatott huzalozások mechanikai, fotolitográfiai, valamint a szelektív
+rétegfelviteli és ábrakialakítási technológiáinak megismerése.
+A mérési feladat: olyan kétoldalas, furatfémezett, fényes ónbevonattal ellátott nyomtatott
+huzalozású hordozó készítése, melynek előállításában a hallgatók is részt vesznek, és amelyet az
+Elektronikai Technológia gyakorlat más mérésein is fel fognak használni. A gyakorlatvezető
+irányításával a hallgatók elvégzik a nyomtatott huzalozású lemezek gyártásának főbb technológiai
+lépéseit.
+A mérés elvégzésével megszerezhető képességek: az alkalmazott berendezések működését és
+működési elvét, az alapvető technológiákat, a technológiák gyakorlati alkalmazását valamint a
+környezetvédelmi ismereteket tanulmányozzák a hallgatók.
+A mérés során felmerülő fogalmak rövid meghatározása:
+Nyomtatott huzalozású hordozó (lemez): Az elektronikus készülékek, berendezések döntő
+többségénél a diszkrét aktív és passzív alkatrészeket nyomtatott huzalozású hordozókra szerelik. E
+hordozók feladata az alkatrészek mechanikai rögzítése és az alkatrészek kivezetői közötti villamos
+kapcsolat megteremtése szigetelő lemezen megvalósított vezető rajzolat révén.
+Furatfémezés: a fúrás elvégzése, és megfelelő felületkezelés után a villamos szempontból szigetelő
+furatfalra árammentes, illetve elektrokémiai rétegépítési technológiákkal rezet, majd ónréteget
+visznek fel. A furatfémezés alkalmas vezető síkok közötti átvezetések (viák) kialakítására és a
+forrasztási felület megnövelése révén mechanikailag erősebb kötést kapunk. Már a huzalozástervezés során figyelembe kell venni a furatfémezés vastagságát a furatátmérő meghatározásakor.
+Fontos a furatfémezés minősége, elsősorban a megfelelő áramterhelhetőség, a jó tapadás és a
+forraszthatóság.
+Rajzolatfinomság: A nyomtatott huzalozások fontos jellemzője a rajzolatfinomság, azaz a
+rajzolaton előforduló minimális vezeték- és szigetelő köz-szélesség. Ennek minimális értéke
+általában 0,1…0,3 mm, de ha az áramterhelhetőség, illetve az üzemi feszültség indokolja, akár
+néhány mm is lehet.
+Fotolitográfia (fotoreziszt technológia): A fotolitográfia során a hordozó felületére fényérzékeny
+anyagot, ún. fotorezisztet visznek fel. A fotoreziszt anyaga laminálással felvitt fólia (szilárd
+rezisztek), szitanyomtatással felvitt kétkomponensű lakk, vagy ún. függönyöntéssel felvitt
+folyékony reziszt. A függönyöntésnél megfelelő résen át szivattyú segítségével függőleges
+folyékony reziszt filmet hoznak létre, melyre merőlegesen halad a hordozó. A fotoreziszt film
+egyenletesen ráterül a hordozó felső oldalára. A folyékony reziszteket megvilágítás előtt beszárítják.
+Megvilágításkor az UV fény hatására kémiai kötések alakulnak ki, vagy bomlanak fel, miáltal
+megváltozik az előhívószerrel szembeni oldhatóság. A fotorezisztet ún. gyártófilmen keresztül
+világítjuk meg, mely a megvalósítandó rajzolatot tartalmazza. Az ún. negatív működésű
+reziszteknél a megvilágított részeken oldhatatlanná válik a fotoreziszt bevonat. Ritkán pozitív
+működésű reziszteket is alkalmaznak, amikor a megvilágított részek oldhatók az előhíváskor. Az
+előhívás után a felületen maradó szelektív fotoreziszt bevonat a maszk. Negatív maszkról akkor
+beszélünk, amikor a megvalósítani kívánt ábra negatívja a maszkkal fedett rész. Pozitív maszknál a
+maszk a rajzolatnak megfelelő részeket fedi. Előbbit szelektív rétegfelviteli (pl. galvanizálás),
+utóbbit réteg eltávolító technológiákhoz (maratás) használják. A gyakorlaton negatív maszkot
+készítünk.
+Nedveskémiai bevonat-készítési technológiák: A nyomtatott huzalozások technológiájában a
+galvanizálást, az árammentes bevonat-felvitelt és az ún. immerziós bevonatkészítést soroljuk ide.
+Mindhárom eljárás folyékony közegben (elektrolitokban) kémiai reakciók révén megy végbe, ezért
+nevezzük e technológiákat nedveskémiai eljárásoknak. Közös tulajdonságuk, hogy e folyamatok
+mindegyike redukció: pozitív töltésű fém-ionok elektronfelvétellel fémmé redukálódnak.
+Galvanizálás során a redukció elektromos áram hatására megy végbe, árammentes rétegfelvitel
+esetén redukálószert használnak, az immerziós bevonat készítésekor pedig az elektródpotenciálok
+különbsége a folyamat hajtóereje.
+Alkalmazott technológiák:
+ mechanikai technológiák: lemezollóval végzett darabolás, fúrás, csiszolás, kontúrmarás;
+ fotolitográfia: fotoreziszt felvitele, gyártófilm illesztése, megvilágítás, előhívás;
+ nedveskémiai technológiák: tisztítás, rétegfelvitel, rétegeltávolítás (maratás).
+A nyomtatott huzalozású hordozók gyakrabban használt alapanyagai: A különböző hordozók
+felhasználási területeit a vázanyag és a kötőanyag fizikai és kémiai tulajdonságai határozzák meg.
+Néhány elterjedten alkalmazott hordozó fontosabb tulajdonságai az 1. táblázatban láthatók.
+1. táblázat. Alapanyagok néhány tulajdonsága
+Tulajdonság
+
+fenol-papír
+
+Mértékegység
+
+epoxiüvegszövet
+
+epoxi-papír
+
+Előírt érték a NEMA LI-1 szabvány szerint
+Szabványos jelölés
+
+FR2
+
+FR3
+
+FR4
+
+Árarányok (FR4 = 100 %)
+
+55 %
+
+65 %
+
+100 %
+
+80
+
+110
+
+300
+
++++
+
++++
+
++
+
+mg
+
+40
+
+40
+
+20
+
+Ω
+
+109
+
+3x109
+
+1010
+
+Veszteségi tényező 1 MHz-en
+
+0,050
+
+0,045
+
+0,035
+
+Dielektromos állandó 1 MHz-en
+
+5,5
+
+5,2
+
+5,4
+
+10
+
+20
+
+20
+
+1
+
+1,2
+
+1,4
+
+Hajlítószilárdság, min.
+
+N/mm2
+
+Mechanikai megmunkálhatóság
+Vízfelvétel, min.
+Felületi ellenállás min.
+
+Forraszfürdőállóság 260 Co-on
+
+s
+
+Rézfólia lefejtési szilárdsága, min. N/mm
+
+A megvalósítandó áramkörökhöz az optimális hordozó-anyagot az egyes tulajdonságok – pl.
+villamos és/vagy mechanikai tulajdonságok, környezetállóság, ár – mérlegelésével kell
+megválasztani. Olyan célra, ahol az ár a lényeges szempont, legtöbbször az olcsó papírváz
+erősítésű fenolgyanta lemezeket használják. Ezek hőállósága megfelelő, jól megmunkálhatók, de
+nagy a nedvszívó képességük és kicsi a mechanikai szilárdságuk. Gyártják önkioltó változatban is,
+ami azt jelenti, hogy a hordozó meggyulladása esetén égést elfojtó gázok keletkeznek Az ilyen
+tulajdonsággal rendelkező hordozók szabványos jelölése tartalmazza az FR (Flame Retardant)
+jelzést. A papírváz erősítésű epoxigyanta lemezek kis dielektromos veszteségi tényezővel és
+kedvező szigetelési tulajdonságokkal rendelkeznek. Jól sajtolhatók, hajlító szilárdságuk jobb, mint a
+fenolgyanta lemezeké. A megmunkálási körülményektől függően fémezett falú furatok készítésére
+is alkalmasak. Az üvegszövet erősítésű epoxigyanta lemezek kiváló villamos, mechanikai és
+hőállósági tulajdonságokkal rendelkeznek. Vízfelvételük csekély. Furatfémezési technológiákhoz
+kiválóan alkalmasak. A két oldalon huzalozott, fémezett furatú és többrétegű nyomtatott huzalozású
+lemezek legelterjedtebben használt szigetelőanyaga.
+Az említett hordozók mellett számos egyéb anyagot is használnak, melyek alkalmazását egy-egy
+különleges tulajdonságuk teszi indokolttá. Ilyen lehet például a kis dielektromos állandó vagy
+veszteségi tényező, a hőmérsékletállóság, hőtágulási és hővezetési tulajdonságok. Kiváló
+dielektromos tulajdonságai miatt a mikrohullámú elektronikában gyakran alkalmazzák a
+politetrafluoretilént (PTFE), közismert nevén a teflont. Alkalmazásának korlátja elsősorban az
+igen magas ár. A poliimidet jó szigetelési tulajdonságai mellett elsősorban az epoxigyantához
+képest magasabb hőállósága miatt célszerű esetenként használni.
+
+6
+
+I. Nyomtatott huzalozások technológiája
+
+A mérés menete
+1. CNC fúrás
+A CNC fúráshoz köteget készítünk, azaz lemezollóval méretre vágjuk az FR4-es epoxi-üvegszövet
+hordozót, valamint a kifutólemezeket, majd két helyen fúrás után 3 mm átmérőjű csappal
+egymáshoz rögzítjük a lapokat. Fölső kifutólemezként 0,24 mm vastag kemény alumínium lemezt,
+alsó kifutólemezként pedig 2,5 mm vastag döntően műgyantából és farostból álló lemezt
+használunk. A termelékenység növelése érdekében rendszerint több hordozót fognak össze,
+egyszerre végezve el azok fúrását (1. ábra). A kötegben egyszerre fúrható hordozók számát
+(általában 2…4 db) a fúróprogramban előforduló legkisebb átmérőjű furatra számított furathosszfuratátmérő arány határozza meg, amelynek általában 7-nél nem szabad nagyobbnak lennie. A
+kifutó lemezek alkalmazásának célja elsősorban a sorjaképződés megakadályozása. Az alsó
+kifutólemez feladata egyben a munkaasztal védelme is. A kötegkészítést követő lépés a fúrás, ami
+CNC géppel történik (2. ábra).
+Hordozók
+
+Felső kifutólemez
+
+Elkészült furat
+
+Alsó kifutólemez
+1. ábra. Elkészült köteg (pakett)
+
+2. ábra. CNC-fúrás
+
+A köteget a két csap alul kilógó részét megfogó pneumatikus szerkezet segítségével lehet a
+munkaasztalon rögzíteni. A fúróorsót ill. az asztalt nagy menetemelkedésű csavarorsók
+közbeiktatásával szervomotorok mozgatják a három tengely irányában. A gép működése közben
+keletkező fúrási törmeléket elszívó rendszer távolítja el.
+A számítógépes tervezés (CAD) befejezésekor gyártófájlokat készítenek, ezek egyike a fúrógépet
+vezérlő, rendszerint drl kiterjesztésű fájl, amelynek kiterjesztése a fúrás angol elnevezéséből (drill)
+származik. A fúróprogram tartalmazza azt az információt, mely meghatározza furatok átmérőjét és
+azok koordinátáit. A furatkoordináták átmérők szerint csoportosítva szerepelnek a fúróprogramban,
+az átmérő általában 0,1…6,3 mm közé esik, ennél nagyobb furatokat kör kontúrmarásával lehet
+kialakítani. 3 mm feletti átmérőjű furatoknál a légcsapágyazású orsók kímélése érdekében 1 mm
+körüli átmérőjű szerszámmal előfúrást végeznek, ezek a furatok a program elején helyezkednek el.
+A furatok elkészítésének sorrendje erőteljesen befolyásolja a termelékenységet, ezért a gyártás
+előkészítésekor az orsó útvonalát optimalizáljuk. Fúrás közben a számítógép kijelzi a gép
+működésének fő adatait: az éppen használt átmérőt, a fordulatszámot, az előtolási sebességet, az
+összes furat számát, az éppen készülő furat sorszámát és a fúró pillanatnyi koordinátáit. Az
+optimális technológiai paramétereket (fordulatszám, előtolási sebesség) az alábbi összefüggésekkel
+határozhatjuk meg:
+
+n
+
+v
+dS
+
+(1)
+
+ve
+
+eu n
+
+(2)
+
+és
+ahol:
+
+
+n: fordulatszám (ford/min),
+v: a fúró kerületi (“vágási”) sebessége | 100...150 m/min,
+x d: a fúró átmérője | 0,1...6,3 mm,
+ve: előtolási sebesség (m/min),
+x e: előtolás | 0,05...0,15 mm/ford.
+x
+
+
+
+7
+
+Elektronikai technológia és anyagismeret laboratórium
+
+Fentiekből adódóan a fordulatszám általában 18…125 ezer ford/min, az előtolási sebesség
+2…4 m/min. A fúrógép a szerszámot tárból emeli ki, és annak hosszát, átmérőjét, valamint a forgás
+közben fellépő oldalirányú elmozdulását (excentricitását) lézeres berendezéssel méri. Amennyiben
+a mért érték a megadott tűrésen kívül esik, hibaüzenettel visszateszi a szerszámot a tárba, s ha
+esetleg van még ott ugyanolyan átmérőjű szerszám, akkor azt is megméri. A fúrást a köteg
+szétbontása követi, melyet pneumatikus csapkinyomó segítségével végzünk el.
+2. Nedves csiszolás
+A kifúrt hordozók csiszolását 4 csiszoló hengerrel rendelkező berendezéssel végezzük, 2 henger
+fölülről, 2 pedig alulról csiszolja meg a lemezeket, majd nagynyomású vizes öblítés és meleg
+levegős szárítás következik. Csiszolás közben a szállítószalagon egyenletes sebességgel haladó
+hordozót mindkét oldalról vízzel permetezzük, így megfelelő érdességű tiszta rézfelületet kapunk. A
+csiszoló és támasztó hengerek helyzetét a hordozóvastagság függvényében kell beállítani. A
+csiszolás eltávolítja a rézfelületen lévő szennyeződések nagy részét, az oxidot, megszünteti a
+fúráskor keletkezett kismértékű sorját a furatok pereménél, és egyúttal biztosítja a kellő felületi
+érdességet a további műveletekhez.
+3. Furatfémezés
+A csiszolást a furatfémezés követi. A galvanizálás során a redukció külső áramforrásból eredő
+elektron(ok) felvétele révén megy végbe, azaz a munkadarab felületének vezetőnek
+(ekvipotenciálisnak) kell lennie. Ezt áthidalhatjuk azzal, hogy a furat szigetelő falának szigetelési
+ellenállását palládium szulfidos bevonattal lecsökkentjük (direkt galvanizálás). Bár a hordozó
+felszíne a furatok falán nem tekinthető klasszikus értelemben vezetőnek (egy-egy furat ellenállása
+nx10 k:), viszont a kialakított vegyület bevonat lehetővé teszi a galvanizálást. Így a furatok falára
+kb. 5 μm vastag rézbevonat kerül (3. ábra).
+Furatfémezés
+
+3. ábra. Hordozó a furatfémezés után
+
+4. Fotoreziszt maszk készítés
+A fotoreziszt számos fontos fizikai-kémiai tulajdonsága UV fény hatására megváltozik. Ilyen
+számunkra fontos tulajdonság az oldhatóság. A gyakorlat során szilárd fotoreziszt felhasználásával
+készítünk negatív maszkot. A szilárd fotoreziszt tekercsben kapható, a fényérzékeny anyag 2
+védőfólia között helyezkedik el. Főként környezetvédelmi okok miatt lúgos vizes oldatban
+előhívható fotorezisztet használunk. A megfelelően megcsiszolt, légkeveréses kemencében
+előmelegített lemezekre kb. 130 °C-on, 0,7 m/perc sebességgel felhengereljük a fotoreziszt fóliát,
+így a hordozóhoz megfelelő tapadást érhetünk el. A fotoreziszt laminálásakor a hordozó felőli
+oldalról a védőfóliát lefejtjük. Az alkalmazott fotoreziszt vastagsága 38 μm. A gyakorlaton negatív
+működésű fotorezisztet alkalmazunk, tehát negatív maszk készítéséhez pozitív gyártófilmre van
+szükségünk. A gyártófilmet a fotoreziszttel bevont hordozón pozícionálni kell, a pontos illesztést
+három, erre a célra készített furat és a gyártófilmen lévő ugyancsak három, megfelelően elhelyezett
+helyező ábra teszi lehetővé. A megvilágítás előtt a hordozót a hozzá rögzített filmmel együtt
+vákuum keretbe helyezzük, ahol a külső levegő nyomása a filmet a fotoreziszttel bevont hordozóra
+szorítja, ezáltal az alávilágítás elkerülhető. Az UV fénnyel történő megvilágításkor a fotoreziszt
+egységnyi felületére típusától függő fényenergia mennyiségnek kell jutnia (20…100 mJ/cm2). A
+megvilágításhoz használt fémhalogén lámpa 5 kW teljesítményű, a megvilágítás ideje néhány
+másodperc. A berendezés belsejében fényintenzitás mérő található, mely folyamatosan méri a
+megvilágító keretre jutó UV fény intenzitását, s ennek függvényében határozza meg a vezérlő
+egység a fényzár nyitva tartásának idejét, annak érdekében, hogy a fotoreziszt megvilágítása
+optimális energiával történjék. A megvilágítás után eltávolítjuk a gyártófilmet és előhívjuk a lemezt
+(4. ábra). Az előhívás előtt a fotorezisztről eltávolítjuk a védőfóliát és az előhívó gép
+szállítószalagjára helyezzük a lemezt. Az előhívó zónában az oldatot szivattyú permetezi
+
+8
+
+I. Nyomtatott huzalozások technológiája
+
+szórófejeken keresztül mindkét oldalról a szállítószalagon haladó hordozóra, majd a lemez kaszkád
+öblítőkön halad át, ahol a kihordott előhívó oldatot eltávolítjuk.
+Az elkészült fotoreziszt maszk
+
+4. ábra. Hordozó az előhívás után (negatív maszk)
+
+Ahol a gyártófilm fedett volt, a fotorezisztet nem érte UV fény, ezért ezek a részek az előhívóban
+oldhatóak maradtak, míg a megvilágított részeken az UV fény kémiai kötések létrejöttét
+eredményezte, s ez a fotorezisztet oldhatatlanná tette az előhívóban. Az egész technológiai
+folyamatot sárga fényű, UV szűrő fóliával ellátott ablakokkal rendelkező helyiségben végezzük,
+hogy a fotorezisztet csak a megvilágításkor érje UV fény.
+5. Rajzolatgalvanizálás
+A maszkkészítést követő rajzolatgalvanizáláskor a maszk által nem fedett rézfelületre kb. 25 μm
+vastag rézbevonatot, majd kb. 12 μm vastag ónbevonatot galvanizálunk (5. ábra). A galvanizáláskor
+a katódnak kapcsolt hordozóra akkora egyenáramot adunk, hogy a galvanizált felületen átlagosan
+2…3 A/dm2 áramsűrűség alakuljon ki. A réz galvanizálás célja, hogy a furatfémezés vastagságát
+legalább 25 μm-re növeljük, a galván ónbevonat pedig a maszk szerepét tölti be a szelektív maratás
+során. Az egyes lépések között ún. kaszkádöblítést alkalmazunk. A kaszkádöblítő egység két
+részből áll, ahol a hordozó haladási iránya a galvánsoron ellentétes az öblítővíz áramlásának
+irányával. Ennél az öblítési technológiánál hely- és víztakarékosabb a szórófejes öblítés, ahol a
+vízsugár mechanikai hatása fokozza a hatékonyságot. A szennyezett vizet szennyvíztisztító
+berendezésbe vezetjük, ahonnan a megtisztított víz a kommunális szennyvízcsatornába jut. A
+kellőképpen megtisztított, szűrt víz bizonyos technológiai célokra ismét felhasználható, így
+csökkentve a környezeti terhelést és a vízfelhasználást.
+25 μm rézbevonat
+é
+
+12 μm ónbevonat
+é
+
+5. ábra. Hordozó a rajzolatgalvanizálás után
+
+6. Maszkeltávolítás és maratás
+A rajzolatgalvanizálás után lúgos oldatban eltávolítjuk a feleslegessé vált fotorezisztet (6. ábra). A
+fotoreziszt az eltávolításkor nem oldódik be a lemosó oldatba, a fotoreziszt szilárd, lemosó oldatban
+lebegő részei mechanikai szűréssel egyszerűen eltávolíthatók, a leszűrt lemosó oldat ezután a
+szennyvíztisztítóba vezethető.
+A maratáskor az alaplemezen eredetileg meglévő, rendszerint 18 vagy 35 μm vastag rézfóliát és a
+furatfémezés során felvitt kb. 5 μm vastag galván réz bevonatot kell eltávolítani azokról a helyekről,
+ahol a galvanizált ón réteg nem védi az alatta lévő rezet a maratástól. Ekkor főképp olyan réteget
+távolítunk el, ami az első technológiai lépés előtt is a hordozón van, ezért az egész eljárást a kivonás
+szóból származó szubtraktív technológiának nevezik (7. ábra).
+
+6. ábra. A feleslegessé vált fotoreziszt leoldása
+
+7. ábra. Szelektív maratás
+
+9
+
+Elektronikai technológia és anyagismeret laboratórium
+
+7. Forrasztásgátló maszk és szelektív forrasztható bevonat felvitele
+Az alkatrészek forrasztása során előfordul, hogy a huzalozási pályákról el nem távolított ón hő
+hatására megolvad, és deformálódik a forrasztásgátló maszk. Ezt a jelenséget narancsosodásnak
+nevezik. Megelőzése érdekében a forrasztásgátló maszk felvitele előtt leoldják a huzalozási
+pályákon lévő ónbevonatot, így a forrasztásgátló maszk közvetlenül a rézfelületre kerül (8. ábra).
+A forrasztásgátló maszk rendszerint fotoszenzitív lakk felhasználásával készül. Kétkomponensű,
+epoxigyanta alapú lakkot használunk, amely a fotoreziszt technológiához hasonlóan munkálható
+meg. A lakkot szitanyomtatással visszük fel a hordozó teljes felületére, azaz a szitanyomtatás ebben
+az esetben a mintázatot nem, csak a rétegvastagságot határozza meg. Ezután légkeveréses
+kemencében megszárítjuk. Megvilágítás, majd előhívás után beégetjük. A forrasztási felületeket
+igény szerint szelektív bevonatokkal láthatjuk el: tűzi ón (HASL), immerziós ezüst, immerziós ón,
+nikkel-arany bevonat (ENIG), szerves-bevonatok (OSP) (9. ábra).
+
+8. ábra. Az ónbevonat leoldása
+
+9. ábra. Forrasztásgátló maszk és forrasztható
+szelektív bevonat felvitele
+
+8. Kontúrmarás
+A forrasztásgátló maszkkal ellátott nyomtatott huzalozású lemezt CNC géppel kontúrmarjuk. Ekkor
+kivágjuk a technológiai méretű lapon megvalósított áramköröket úgy, hogy a művelet után még
+kitörő fülek tartják egyben a lapot. Így a gépi alkatrész beültetés és forrasztás gazdaságosabb és
+egyszerűbb, mintha az áramköröket külön-külön kellene kezelni a későbbi technológiai műveletek
+során.
+A kontúrmaráshoz használt programot CAM rendszerrel készítjük el, a program a maró útvonalat
+definiáló koordinátákon kívül fúróorsó felemelő ill. letevő, valamint forgácselszívó nyitó, záró
+parancsokat is tartalmaz. A munkaasztalon a lemezt azoknak a bázisfuratoknak a felhasználásával
+rögzítjük, amelyeket a CNC fúráskor készítettünk.
+Ellenőrző kérdések
+1. Mi a nyomtatott huzalozású lemezek funkciója?
+2. Ismertesse a leggyakrabban alkalmazott hordozók felépítését és fontosabb tulajdonságaikat!
+3. Adja meg az alábbi fogalmak definícióját:
+- pozitív működésű fotoreziszt,
+- negatív működésű fotoreziszt,
+- pozitív maszk,
+- negatív maszk.
+4. Ismertesse a különböző nedveskémiai rétegfelviteli technológiákat!
+5. Sorolja fel a kétoldalas furatfémezett nyomtatott huzalozású lemezek készítése során
+alkalmazott technológiai lépéseket!
+6. Ismertesse a CNC fúrás jellemző technológiai paramétereit!
+7. Ismertesse a maszkkészítés fontosabb lépéseit!
+
+10
+
+

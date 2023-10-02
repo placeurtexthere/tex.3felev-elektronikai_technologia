@@ -1,0 +1,409 @@
+II. DOE - Számítógéppel segített kísérlettervezés
+
+Számítógéppel segített kísérlettervezés
+A mérés célja: A számítógéppel segített kísérlettervezés labor célja, hogy a résztvevők lehetőséget
+kapjanak gyakorlati tapasztalat szerzésére a kísérlet tervezés terén, miközben kihasználják a
+számítógépes eszközök előnyeit a tervezési folyamat során.
+
+A mérési feladat: Egyszerű, többváltozós kísérlet vizsgálatán és elvégzésén keresztül
+megismerkedni olyan eszközökkel és módszerekkel, amelyek lehetővé teszik a kísérleti tervek és a
+kísérleti paraméterek könnyebb kezelését.
+
+A mérés elvégzésével megszerezhető képességek: a résztvevők megtanulhatják, hogy a
+kísérlettervezésnek létezik szisztematikus módja. Valamint példákat láthatnak rá, hogy milyen
+hatékony szoftverek léteznek a folyamat segítésére.
+
+A mérés során felmerülő fogalmak rövid meghatározása
+Kísérlet
+A kísérlet a tudományos megismerés egyik módszere, melynek során egy ellenőrzött környezetben
+általában ismételhető módon tesztelünk egy hipotézist vagy elméletet. A kísérlet célja, hogy
+segítségével adatokat gyűjtsünk, és az ezek közötti összefüggések feltárásával jobban megismerhető
+legyen egy jelenség vagy folyamat. A kísérletek során adott feltételek mellett változtatjuk meg egy
+vagy több változó értékét (pl. egy folyamat bementei paraméteri), és megfigyeljük, hogy ezek a
+változások hogyan befolyásolják a függő változókat (pl. egy folyamat kimeneti paraméterei).
+Kísérlettervezés
+A kísérlettervezés (DOE – Design of Experiments) olyan módszertan, melynek célja, hogy
+rendszerezett és hatékony módon segítse a kísérletek tervezését és végrehajtását, lehetővé téve ezáltal
+a megbízható és hasznos információk gyűjtését a független változók (faktorok) függvényében. A
+DOE segít minimalizálni a kísérletek számát, így kevesebb időt és erőforrást igényel a kísérletek
+végrehajtása.
+Tekintve, hogy a folyamat során statisztikai módszereket (melyek ismertetése nem célja a labornak)
+használva figyelembe vesszük a külső forrásból származó zajt és a mérési eredmények természetes
+változásait, a szisztematikusan tervezett kísérletek pontosabb és megbízhatóbb eredményeket
+hozhatnak.
+A DOE további előnye, hogy lehetővé teszi a bementei változók közötti interakciók elemzését.
+Alkalmazásával képesek lehetünk a különböző faktorok közötti összetett hatások azonosítására, mely
+fontos lehet a valósághű modellalkotás és a javasolt változtatások megalapozásához.
+A hagyományos próbálkozások módszerével szemben a DOE strukturált és tudományos
+megközelítést alkalmaz, amely segít elkerülni a találgatást és a felesleges próbálkozásokat.
+A DOE módszertana szinte bármely olyan területen hasznos lehet, ahol kísérleteket hajtanak végre a
+változók hatásának megértése és optimalizálása érdekében. Például a gyártás és minőség-ellenőrzés
+terén, a gyártási folyamatok optimalizálásához és a termékek minőségének javításához használják.
+Az elektronikai termékeknél például az áramkörök tervezésekor a komponensek és paraméterek
+optimális kombinációjának meghatározására használhatják. Telekommunikációban a hálózatok és
+kommunikációs rendszerek tervezésénél a DOE segít a sávszélesség, a jelminőség és a
+szolgáltatásbiztonság optimalizálásában. Új anyagok fejlesztésekor segítségével az anyagi
+tulajdonságok optimalizálásával és a gyártási folyamatok hatékonyságának növelésével időt és pénzt
+spórolhatunk.
+
+1
+
+II. DOE - Számítógéppel segített kísérlettervezés
+Kísérlettervezés alapjai
+A DOE módszertana jól körülhatárolt fogalmak szisztematikus és módszeres használatán alapul és
+statisztikai eszközöket használ a háttérben. Az alábbiakban felsoroljuk a leggyakrabban használt (a
+módszerre sajátosan jellemző) fogalmakat és röviden ismertetjük azok jellemzőit.
+Faktorok és szintek definíciója
+A faktorok (optimalizációs paraméterek - factor) olyan mérhető vagy minősíthető független változók
+vagy tényezők, amelyeket a kísérletben szándékosan változtathatunk annak érdekében, hogy
+megvizsgáljuk, hogyan befolyásolják a folyamatunk kimeneteiként azonosított egyéb mennyiségeket.
+Például egy gépesített forrasztási folyamatnál faktorok lehetnek a forrasztókemence hőmérséklete, a
+szállítószalag sebessége, a fűtés teljesítménye vagy az alkalmazott forrasz összetétele. Minden
+faktornak több szintje (level) lehet. A szintek az adott faktor értékeinek konkrét beállításai vagy
+értékei. Például a szállítószalag sebessége faktornak lehet alacsony, közepes és magas szintje, vagy
+konkrét mm/s dimenziójú értékei.
+Az adott vizsgált folyamat során számtalan faktort azonosíthatunk, ám ezek nem mindegyike
+szükségszerűen bizonyul lényeges faktornak. (Vagy azért, mert nem az általunk választott kimeneti
+paraméterre gyakorolnak hatást, vagy egyáltalán nincs érdemi hatásuk). Ezért a lényegtelen faktorok
+kiszűrése és a fő faktorok azonosítása az irányított kísérlettervezés egyik fő feladata. A faktorok
+figyelmen kívül hagyása növeli a kísérlet hibáját, és egy rosszul azonosított rendszerben esetleg nem
+a valódi optimális munkapont beállítását eredményezheti. A faktorokkal szemben számos fontos
+követelményt kell támasztani.
+1. Mérhetőség és ellenőrizhetőség: célszerű olyan változókat választani, melyek értékeit
+objektív módon tudjuk mérni vagy rögzíteni (lehetőség szerint jól kiforrott és ismert mérési
+módszer segítségével). Például ha a faktor egy anyag típusa, akkor annak összetétele vagy
+fizikai tulajdonságai legyenek mérhetők.
+2. Kontrollálhatóság: képesnek kell lennünk a választott faktor egyes értékeinek reprodukálható
+beállítására a kísérletek során.
+3. Relevancia: legjobb tudásunk szerint igyekeznünk kell relevánsnak gondolt faktorokat
+válaszasztani. Ha olyan mennyiség hatását vizsgáljuk, melynek csekély szerepe van a
+folyamat szempontjából, akkor feleslegesen növeljük az elvégzendő kísérletek számát.
+4. Függetlenség: ha két faktor között erős kölcsönhatás vagy korreláció van, akkor nehezebb
+lehet megérteni az egyes faktorok hatását a rendszerre, hatásukat nehéz lesz szétválasztani.
+5. Megfelelő szintek száma: az egyes faktoroknak több szintet kell tartalmazniuk a hatások
+pontosabb felméréséhez. Az optimális szintek számát a kísérleti cél és a rendelkezésre álló
+erőforrások határozzák meg; a szintek számának helyes megválasztása szintén fontos célja a
+kísérlettervezésnek.
+6. Stabilitás: a faktoroknak stabilnak kell lenniük a kísérlet teljes időtartama alatt. Ha a bementi
+változók időfüggő zajjal terheltek, vagy instabilak, az torzíthatja az eredményeket.
+7. Egyértelműség: a faktorok és szintek definíciója és elnevezése egyértelmű kell, hogy legyen,
+hogy a kísérlettervezés és az eredmények értelmezése során ne legyenek félreértések.
+8. Rendszeresítés és dokumentáció: fontos, hogy a faktorokat rendszeresen dokumentáljuk és
+rögzítsük. A faktorok módosításait és a szintek beállításait pontosan rögzíteni kell, hogy
+reprodukálható legyen a kísérleti folyamat.
+
+2
+
+II. DOE - Számítógéppel segített kísérlettervezés
+Kísérleti faktor
+Az a függő változó, amelynek az optimalizálásában érdekeltek vagyunk (pl. egy precíziós ellenállás
+értékbeállításánál maga az ellenállás értéke). Ahogy a neve is mutatja, ez is egyfajta faktor, tehát a
+fenti tulajdonságok erre a mennyiségre is értendők.
+Kísérleti egység
+A kísérleti egység azon elem vagy alany, amelyre a kísérletet alkalmazzuk vagy vizsgáljuk. Például
+egy autógyárban a kísérleti egységek lehetnek az egyes autók, és azokon végzett mérések vagy tesztek,
+de egy több bemeneti paraméterrel rendelkező mérőberendezés is lehet maga a vizsgálati egység.
+Véletlenszerű mintavétel
+A véletlenszerű mintavétel azt jelenti, hogy a kísérleti egységek kiválasztása és/vagy a faktorszintek
+sorrendje véletlenszerű. Ez az elv segít minimalizálni a torzításokat vagy a mintavételi hibákat a
+kísérletben, és lehetővé teszi a statisztikai analízis objektív és megbízhatóbb eredményeinek elérését.
+A DOE-ra jellemző terminológia
+Tekintve, hogy a konkrét mérnöki területen az egyes kísérleti egységek jellemzően nagyon hasonló
+tulajdonságokkal rendelkeznek a tipikus faktor és szintszámok jelölésére az I.-es táblázatban található
+hatványszámokat használják. Ezért ennek a gyakorlatban kialakult egy sajátos terminológiája, melyet
+az alábbi táblázatban ismertetünk.
+I. táblázat. DOE tanulmányok jellemző elnevezése
+DOE tanulmány elnevezése
+
+Faktor szám
+
+Szint szám
+
+22
+
+2
+
+2
+
+24
+
+4
+
+2
+
+34
+
+4
+
+3
+
+Pareto-diagram
+A Pareto-diagram egy gyakori eszköz a kísérlettervezés eredményeinek ábrázolására. Segítségével
+azonosítani tudjuk a legfontosabb faktorokat. A Pareto-diagram egy olyan oszlopdiagram, amely az
+egyes faktorokat és azok hatásait mutatja be csökkenő sorrendben. Az oszlopok magassága az adott
+faktor hatásának mértékét vagy fontosságát jelzi. A diagramon határértéket is ábrázolnak. Azok a
+faktorok, amelyek hatása meghaladja ezt a határértéket, lényegesnek tekintik. A faktorok hatásait
+különböző statisztikai számításokkal tudjuk meghatározni. (Pl. Variancia analízis (ANOVA), lineáris
+regresszió stb.).
+
+1. ábra. Pareto-diagram, melyen látható, hogy jelen példánál valamennyi faktor szignifikáns
+
+3
+
+II. DOE - Számítógéppel segített kísérlettervezés
+Szórás
+A szórás (standard deviation) a statisztikában egy mérték, amely az adatok „szóródásának” vagy
+változékonyságának mértékét mutatja. A szórás azt jelzi, hogy az adatok mennyire térnek el az
+átlagtól. Minél nagyobb a szórás, annál nagyobb a változékonyság az adathalmazban. A szórás
+mértékegysége megegyezik az eredeti adatok mértékegységével, és pozitív valós szám.
+A szórás meghatározáshoz első lépésben Kiszámítjuk az adatok átlagát (átlagos értéket). Kiszámítjuk
+az egyes adatpontok és az átlag közötti különbségek négyzetét. Az egyes eltéréseket négyzeteinek
+átlagát számoljuk ki, majd négyzetgyököt vonunk az eredményéből.
+(𝑋𝑖 −𝑋̂)2
+,
+𝑁
+
+𝜎 = √∑
+
+ahol σ a szórás Xi az egyes adatpontok a mérési sorban, 𝑋̂: az adatok átlaga, N pedig a mérési pontok
+száma
+A képletben a szórás (σ vagy s) a következőképpen írható le:
+Variancia analízis (ANOVA)
+Ez egy olyan statisztikai módszer, ami különböző csoportok átlagának összehasonlítására alkalmas.
+Nagyon leegyszerűsítve azt vizsgálja, hogy a különböző csoportba sorolt mért értékek szórása
+mennyire tér el egymástól. Az elemzés során az adatokat az átlagos értékek és a variancia alapján
+vizsgáljuk, hogy lássuk, a csoportok közötti különbségek statisztikailag szignifikánsak-e. Az ANOVA
+statisztikai próbával dönt arról, hogy a csoportok közötti különbségek szignifikánsak-e a nulla
+hipotézishez képest. (A nulla hipotézis azt állítja, hogy nincs szignifikáns különbség a csoportok között,
+míg az alternatív hipotézis azt állítja, hogy van szignifikáns különbség). Ehhez az f- vagy t-próba nevű
+eljárást használja.
+A statisztikai szignifikancia referenciavonala a szignifikancia-szinttől függ (α jelöli). Hacsak nem
+adott egy olyan lépésenkénti kiválasztási módszer, amely meghatározza alfa értéket, akkor a
+szignifikancia-szint az 1 mínusz az elemzés megbízhatósági szintje (pl. 1-99%=0.01).
+
+A mérés menete
+1. A kísérleti egység megismerése
+Tekintve, hogy a DOE módszertana univerzálisan bármilyen több bemeneti paraméterrel és jól
+mérhető kimeneti változókkal rendelkező rendszer vizsgálatára alkalmas, tulajdonképpen bármilyen
+kísérleti eszközt viselkedését vizsgálhatnánk segítségével. Illeszkedve az ipari gyakorlathoz a
+laborfoglalkozáson is, a témával kapcsolatban legáltalánosabban használt eszközt, egy kaptapultot
+vizsgálunk. Egy virtuális, 5 faktorral és egy kimenettel rendelkező kísérleti egységgel fogunk
+dolgozni.
+
+#3
+#2
+#1
+
+#5
+
+#4
+2. ábra. Virtuális katapult, mint kísérleti egység képe
+
+4
+
+II. DOE - Számítógéppel segített kísérlettervezés
+
+3. ábra.
+II. táblázat. A kísérleti rendszer faktorjainak ismertetése
+Magyarázat
+
+#
+
+Ajánlott szintek
+
+1
+
+Pin Elevation
+
+A katapult karját mozgató elasztikus szalag rögzített
+végpontja.
+
+120
+
+180
+
+2
+
+Bungee Position
+
+A katapult karját mozgató elasztikus szalag mozgó végpontja.
+
+120
+
+180
+
+3
+
+Cup Elevation
+
+A lövedék hajítókaron található pozíciója
+
+220
+
+280
+
+4
+
+Release Angle
+
+A hajítókar hátsó feszített pozíciója
+
+140
+
+180
+
+5
+
+Firing Angle
+
+A lövedék elengedésének szögállása
+
+110
+
+A gyakorlat során az #5 jelű faktort nem fogjuk állítani, annak értékét állítsuk fixen 110-re. A többi
+négy faktort két szint között fogjuk állítani, így a DOE modellünk 24 faktoriális modell lesz.
+2. A kísérleti egység megismerése
+Minden valóságos mérőberendezés által szolgáltatott eredménynek van egy természetes szórása. Ez
+általában az eszköz tökéletlenségéből, esetleg a folyamat vagy az operátor hibájából származtatható.
+Folyamatoptimalizálást csak olyan eszközön érdemes elvégezni, ami által szolgáltatott eredmények
+hitelességéről meg vagyunk győződve. Ehhez egy sor előzetes vizsgálatra van szükség, hogy lássuk
+milyen az eszköz pontossága és a mérés reprodukálhatósága. Az első feladat éppen ennek a vizsgálata.
+Próbálgatás útján határozzuk meg először az elérhető legnagyobb hajítási távolságot az #1–4 faktorok
+értékeinek állításával! Előszőr beállítjuk a Pin és Cup Elevantion-t, aztán a Bungee position-t és végül
+a Release angle pozícióba állításával, majd elengedésével kilőjjük a lövedéket. A mérőszalagról
+olvassuk le a távolságot és jegyezzük fel valamennyi lövés után.
+Jegyezzük fel, hogy hány kísérlet volt szükséges a maximális távolság meghatározásához!
+Ha megvan a maximális hajítási távolság, akkor az ahhoz szükséges beállítások mellett elvégzünk 10
+kísérletet és Excel táblázatba rögzítjük a leolvasott távolság értékeket. Grafikusan ábrázoljuk az
+értékeket és azok szórását. Vizsgáljuk meg az ismétlés hibáját!
+Vizsgáljuk meg közösen, hogy a mi lehet az eredmények szórásának az oka és hogy hogyan lehetne
+javítani a folyamaton!
+3. Teljes faktoriális kísérletek lefolytatása
+Minden, ún. teljes faktoriális tanulmány esetén a faktorok és a szintek által meghatározott hatvány
+mondja meg, hogy hány darab kísérletet kell lefolytatni a rendszer vizsgálatához. Jelen esetben
+24 = 16 különböző beállítások mellett elvégzett hajításra van szükségünk, melyekhez a vonatkozó
+paraméterhalmazt szisztematikusan legenerálhatjuk.
+Végezzük el a hajítási kísérleteket a fenti táblázat alapján. Olvassuk le a kapott távolságokat a
+mérőszalagról és az értékeket jegyezzük fel Excel táblázatba! A csoport összes mérési eredményét
+összegezzük egy közös táblázatba, hogy jelentősen növelni tudjuk az elvégzett kísérletek számát,
+megbízhatóbb statisztikát generálva ezzel. A közös táblázat alapján célszoftver segítségével közösen
+kiértékeljük a kísérletet. Első lépésben egy Pareto-diagramot készítünk, melyen megvizsgáljuk, hogy
+a konkrét esetben mely bemeneti paraméterek bizonyulnak szignifikánsnak. A lényeges változók
+hatását közösen kiértékeljük.
+
+5
+
+II. DOE - Számítógéppel segített kísérlettervezés
+
+III. táblázat. A teljes faktoriális kísérlet paraméterei.
+
+Kísérlet sorszáma Pin Elevation Bungee Position Cup Elevation Release Angle
+1
+120
+120
+220
+140
+2
+180
+120
+220
+140
+3
+120
+180
+220
+140
+4
+180
+180
+220
+140
+5
+120
+120
+280
+140
+6
+180
+120
+280
+140
+7
+120
+180
+280
+140
+8
+180
+180
+280
+140
+9
+120
+120
+220
+180
+10
+180
+120
+220
+180
+11
+120
+180
+220
+180
+12
+180
+180
+220
+180
+13
+120
+120
+280
+180
+14
+180
+120
+280
+180
+15
+120
+180
+280
+180
+16
+180
+180
+280
+180
+
+4. Célértékre optimalizálás
+Ha egy teljes faktoriális kísérletet elvégeztünk akkor a rendszerünk viselkedése kiszámítható.
+Gyakran előfordul, hogy a kimeneti változó értékét egy konkrét célértékre kell állítani, mert az a
+megrendelői követelménye. (pl. egy egyenirányító dióda nyitófeszültsége legyen pontosan 1,2V). Ez
+sok bementi változóval és komplex egymásra hatás mellett sokszor nem egyszerű feladat. Vizsgáljuk
+meg a katapult esetében mennyire megy ez intuitív utón! Szisztematikus próbálgatás útján próbáljunk
+meg egy előre rögzített célt eltalálni és jegyezzük fel az ehhez szükséges próbálkozások számát és
+távolság értékeket.
+A teljes faktoriális kísérletek elvégzése során előállt eredmények alapján, célszoftver segítségével
+határozzuk meg a faktoroknak azon beállításait, melyek az előre rögzített cél eléréshez szükségesek!
+Állítsuk be a program által javasolt bemeneti paramétereket és végezzük el a hajítást legalább 10-szer.
+Nézzük meg, hogy a javasolt beállítások mellett milyen szórással vagyunk képesek a cél eltalálására.
+Hasonlítsuk össze a módszer hatékonyságát az próbálgatáson alapuló módszer hatékonyságával!
+Ellenőrző kérdések
+1.
+Milyen esetekben előnyös a kísérlettervezési módszertanát használni?
+2.
+Mit nevezünk faktornak és milyen jellemzőkkel kell ideális esetben bírnia?
+3.
+Mit nevezünk szintnek?
+4.
+Mitől függ az elvégzendő kísérletek száma DOE módszertan alapján?
+5.
+Mit ábrázolunk Pareto-diagramban és mi olvasható ki belőle?
+
+6
+
+
