@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.12)  1 OCT 2023 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.12)  3 OCT 2023 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/dave/Documents/GitHub/tex.elektronikai_technologia_eloadas/main.tex
-(/Users/dave/Documents/GitHub/tex.elektronikai_technologia_eloadas/main.tex
+**/Users/dave/Documents/GitHub/tex.elektronikai_technologia_osszefoglalo/eloadas/eloadas.tex
+(/Users/dave/Documents/GitHub/tex.elektronikai_technologia_osszefoglalo/eloadas/eloadas.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -157,8 +157,8 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 765.
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box53
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./eloadas.aux)
+\openout1 = `eloadas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -231,9 +231,9 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./eloadas.toc)
 \tf@toc=\write3
-\openout3 = `main.toc'.
+\openout3 = `eloadas.toc'.
 
  [1
 
@@ -268,7 +268,7 @@ Overfull \hbox (8.80937pt too wide) in paragraph at lines 62--63
 
 ] [4
 
-] (./main.aux)
+] (./eloadas.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -276,14 +276,14 @@ L3 programming layer <2023-08-29>
  ) 
 Here is how much of TeX's memory you used:
  3538 strings out of 474934
- 50558 string characters out of 5759811
+ 50648 string characters out of 5759811
  1924807 words of memory out of 5000000
  25062 multiletter control sequences out of 15000+600000
  568499 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,534b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,550b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (5 pages, 96792 bytes).
+Output written on eloadas.pdf (5 pages, 96792 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
