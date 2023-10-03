@@ -1,0 +1,11 @@
+\nobreakspace {}\hfill \textbf {Oldal}\par 
+\contentsline {section}{\numberline {0}0 Bevezetés, fogalmi rendszerezés}{2}{}%
+\contentsline {paragraph}{Mi az Elektronikai Technológia?}{2}{}%
+\contentsline {paragraph}{Az elektronikai technológia hatóereje.}{2}{}%
+\contentsline {paragraph}{Mi az anyagismeret célja?}{2}{}%
+\contentsline {paragraph}{Mivel foglalkozik a tárgy?}{2}{}%
+\contentsline {section}{\numberline {1}1 Elektronikus készülékek}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Készülékek fejlesztési fázisai}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Út a műszaki specifikációig}{3}{}%
+\contentsline {paragraph}{Mit kell létrhozni?}{3}{}%
+\contentsline {section}{\numberline {2}2 Elektronikai szerelési- és kötéstechnológiák}{4}{}%

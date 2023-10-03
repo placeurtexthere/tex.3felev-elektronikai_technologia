@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{indentfirst}
+%\usepackage{fullpage}
+\usepackage[a4paper, total={170mm,257mm}, left=20mm, top=20mm]{geometry}
+\usepackage[symbol]{footmisc}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\setcounter{section}{-1}
+	
+\renewcommand*\contentsname{Tartalomjegyzék}
+
+\AddToHook{cmd/section/before}{\clearpage}
+
+\begin{document}
+\begin{titlepage}
+	\centering \vfill
+	{\textsc{Budapesti Műszaki és Gazdaságtudományi Egyetem} \par} \vspace{7cm}
+	{\huge\bfseries A számítástudomány alapjai\par} \vspace{0.5cm}
+	{\large \textsc{Összefoglaló jegyzet}\par} \vspace{1.5cm}
+	{\Large\itshape Készítette: Illyés Dávid\par} \vfill
+
+	\noindent\fbox{%
+    	\parbox{140mm}{
+			\color{red}\textbf{Ez  a jegyzet nagyon hasonlóan van struktúrálva az előadás jegyzetekhez és fő célja, hogy olyan módon adja át a "A Programozás Alapjai 1" nevű tárgy anyagát, hogy az teljesen kezdők számára is könnyen megérthető és megtanulható legyen. }
+   		}
+	}
+	
+	\vfill {\large \today\par}
+\end{titlepage} 
+\tableofcontents
+\addtocontents{toc}{~\hfill\textbf{Oldal}\par}
+
+    \section{0 Bevezetés, fogalmi rendszerezés}
+
+        \paragraph{Mi az Elektronikai Technológia?} A technológia az anyag jellemzőinek tervezett, maradandó megváltoztatása. Az elektronikai texhnológia a villamosmérnöki tudományos és Ipari-kereskedelemi ismereteknek azon területe, amely az elektronikus áramköri egységek alkatrészeinek, hordotóinak és összeköttetés rendszereinek tervezésével, megvalósításával és megbízhatóságával foglalkozik.
+
+		\paragraph{Az elektronikai technológia hatóereje.} A funkciók integrációja a méret, az energiafelhasználás, a költségek és a környezeti terhelés optimalizálása, tervezhető megbízhatóság mellett.
+
+		\paragraph{Mi az anyagismeret célja?}
+
+			\begin{itemize}
+				\item Az ipar különböző területein alkalmazható anyagok (természetes és szintetikus polimerek, fémek és ötvözeteik, egykristályos, kerámikus anyagok és kompozitok) felépítésének, fizikai, technológiai és használati jellemzőinek rendszerezése.
+				\item Az anyagkiválasztás szempontrendszerének és módszertanának összefoglalása.
+			\end{itemize}
+
+		\paragraph{Mivel foglalkozik a tárgy?} 
+
+			\begin{itemize}
+				\item Elektronikus készülékek konstrukciós alapelvei, megbízhatóság és termikus tervezés.
+			\end{itemize}
+
+	\section{1 Elektronikus készülékek}
+
+		\subsection{Készülékek fejlesztési fázisai}
+
+			\begin{enumerate}
+				\item Műszaki specifikáció meghatározása (50\%\footnote[1]{:a termék sikerességében való szerep aránya}):
+					\subitem Egyeztetés, marketing, bench-marking, meglévő és várható előírások, hatósági előírások.
+				\item Prototípus kifejlesztése (30\%\footnotemark[1]):
+					\subitem Specifikáció, tesztelés, gyárthatósag, ár.
+				\item Gyártástechnológia kidolozása (10\%\footnotemark[1])
+					\subitem Gyártási költségek, gyártáskapacitás, tesztelés.
+				\item Próbagyártás (10\%\footnotemark[1])
+					\subitem Tesztelés (kihozatal/selejt arány).
+				\item Gyártás (0\%\footnotemark[1])
+					\subitem Minőségellenőrzés, SPC.
+			\end{enumerate}
+
+		\subsection{Út a műszaki specifikációig}
+			
+			\paragraph{Mit kell létrhozni?}
+
+			A mérnöki gyakorlatban olyan készülékekkel foglalkozunk, amelyekre \underline{igény} mutatkozik.
+
+			Az igény lehet:
+
+			\begin{itemize}
+				\item valós:
+					\subitem egyedi (pl. atomerőmű),
+					\subitem nem egyedi, vagy piaci (pl. autó), 
+				\item látens (pl. SMS),
+				\item a kitalálás pillanatában még nem létező (pl. Rubik Kocka)
+			\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	\section{2 Elektronikai szerelési- és kötéstechnológiák}
+
+			
+\end{document}
