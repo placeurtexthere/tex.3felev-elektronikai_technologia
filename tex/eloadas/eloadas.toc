@@ -7,5 +7,26 @@
 \contentsline {section}{\numberline {1}1 Elektronikus készülékek}{3}{}%
 \contentsline {subsection}{\numberline {1.1}Készülékek fejlesztési fázisai}{3}{}%
 \contentsline {subsection}{\numberline {1.2}Út a műszaki specifikációig}{3}{}%
-\contentsline {paragraph}{Mit kell létrhozni?}{3}{}%
-\contentsline {section}{\numberline {2}2 Elektronikai szerelési- és kötéstechnológiák}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Mit kell létrhozni?}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Ki lesz a felhasználó? (jelen és jövő)}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Hol használjuk? (jelen és jövő)}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Mikorra kell elkészíteni? Mennyire szigorú a határidő?}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}Mennyibe fog kerülni a készülék?}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.6}További kérdések}{4}{}%
+\contentsline {subsection}{\numberline {1.3}Az áramkör tervezés célja}{5}{}%
+\contentsline {subsection}{\numberline {1.4}Áramkör tervezés - elektromos konstrukció}{5}{}%
+\contentsline {subsection}{\numberline {1.5}Általános munkafolyamat}{5}{}%
+\contentsline {subsection}{\numberline {1.6}Mechanikai tervezés, szerkezeti konstrukció}{5}{}%
+\contentsline {subsection}{\numberline {1.7}Termikus tervezés}{6}{}%
+\contentsline {subsection}{\numberline {1.8}Elektromágneses zavarvédelmi tervezés}{6}{}%
+\contentsline {subsection}{\numberline {1.9}Ergonómiai tervezés}{6}{}%
+\contentsline {subsection}{\numberline {1.10}Üzembiztonságra tervezés}{7}{}%
+\contentsline {subsection}{\numberline {1.11}Érintésvédelmi tervezés}{7}{}%
+\contentsline {subsection}{\numberline {1.12}IP - Védelem kérdése (Ingression Protection)}{7}{}%
+\contentsline {subsection}{\numberline {1.13}Gyárthatóságra tervezés (DFM)}{7}{}%
+\contentsline {subsection}{\numberline {1.14}Gyráthatóságra, tesztelhetőségre tervezés (DFM)}{8}{}%
+\contentsline {subsection}{\numberline {1.15}Megbízhatósági tervezés}{8}{}%
+\contentsline {subsection}{\numberline {1.16}Szabvényokra épülő megvalósítás}{9}{}%
+\contentsline {subsection}{\numberline {1.17}Szabványokat részben követő megvalósítás}{9}{}%
+\contentsline {section}{\numberline {2}2 Elektronikai szerelési- és kötéstechnológiák}{10}{}%
+\contentsline {subsection}{\numberline {2.1}}{10}{}%
