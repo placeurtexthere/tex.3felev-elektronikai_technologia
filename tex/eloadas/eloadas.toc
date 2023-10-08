@@ -29,4 +29,9 @@
 \contentsline {subsection}{\numberline {1.16}Szabvényokra épülő megvalósítás}{9}{}%
 \contentsline {subsection}{\numberline {1.17}Szabványokat részben követő megvalósítás}{9}{}%
 \contentsline {section}{\numberline {2}2 Elektronikai szerelési- és kötéstechnológiák}{10}{}%
-\contentsline {subsection}{\numberline {2.1}}{10}{}%
+\contentsline {subsection}{\numberline {2.1}Az elektronikai alkatrészek csoportosítása}{10}{}%
+\contentsline {subsection}{\numberline {2.2}A szerelt nyomtatott huzalozású lemez felépítése}{10}{}%
+\contentsline {subsection}{\numberline {2.3}Furatszerelt alkatrészek}{11}{}%
+\contentsline {subsection}{\numberline {2.4}Furatszerelt alkatrészek csoportosítása}{11}{}%
+\contentsline {subsection}{\numberline {2.5}Diszkrét furatszerelt alkatrészek (Passzív)}{12}{}%
+\contentsline {subsection}{\numberline {2.6}Furatszerelt aktív alkatrészek}{12}{}%

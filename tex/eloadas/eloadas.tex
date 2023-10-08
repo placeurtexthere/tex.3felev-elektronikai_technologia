@@ -3,12 +3,17 @@
 \usepackage{amsmath}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{indentfirst}
-%\usepackage{fullpage}
+\usepackage{microtype}
 \usepackage[a4paper, total={170mm,257mm}, left=20mm, top=20mm]{geometry}
 \usepackage[symbol]{footmisc}
-\usepackage{microtype}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+\renewcommand{\thefigure}{\arabic{label}}
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
 
 \setcounter{section}{-1}
 	
@@ -466,5 +471,84 @@
 
 	\section{2 Elektronikai szerelési- és kötéstechnológiák}
 
-		\subsection{}
+		\subsection{Az elektronikai alkatrészek csoportosítása}
+
+			\begin{itemize}
+				\item \textcolor{red}{Funkció szerint:}
+					\subitem{aktív, passzív}
+				\item \textcolor{red}{Szerelhetőség szerint:}
+					\subitem furatszerelt, felületszerelt, tokozatlan chip
+				\item \textcolor{red}{Funkciók száma szerint:}
+					\subitem diszkrét alkatrészek - egy alkatrész egy áramköri elemet tartalmaz
+					\subitem integrált áramkörök - egy alkatrész több áramköri elemt tartalmaz
+			\end{itemize}
+
+			\textbf{\textcolor{red}{2. oldali ábrák jöhetnek ide}}
+
+		\subsection{A szerelt nyomtatott huzalozású lemez felépítése}
+
+			\begin{figure}[!htb]%
+				%% first three subfigures
+				\subfigure[]{
+					\label{fig:1}
+					\includegraphics[width=0.31\textwidth]{images/2.2/1.jpg}%
+				}%
+				\hspace{\fill}
+				\subfigure[]{ 
+					\label{fig:2}
+					\includegraphics[width=0.31\textwidth]{images/2.2/2.png}%
+				}%
+				\hspace{\fill}
+				\subfigure[]{
+					\label{fig:3}
+					\includegraphics[width=0.31\textwidth]{images/2.2/3.png}%
+				}
+			
+				%% second group of subfigures
+				\subfigure[]{
+					\label{fig:4}
+					\includegraphics[width=0.31\textwidth]{images/2.2/4.png}%
+				}%
+				\hspace{\fill}
+				\subfigure[]{
+					\label{fig:5}
+					\includegraphics[width=0.31\textwidth]{images/2.2/5.png}%
+				}%
+				\hspace{\fill}
+				\subfigure[]{
+					\label{fig:6}
+					\includegraphics[width=0.31\textwidth]{images/2.2/6.png}%
+				}
+			\end{figure}
+
+			\begin{enumerate}[a]
+				\item Hordozó, pl. FR4 üvegszálas epoxigyanta
+				\item Réz mintázat: fotolitográfiával kialakított
+				\item Forrasztásgátló maszk: szitanyomtatással viszik fel és fotolitográfiával mintázzák
+				\item Feliratok, pozícióábrák: szitanyomtatással viszik fel
+				\item Alkatrészek beültetése: kézi, gépesített
+				\item Forrasztás: hullámforrasztás, újraömlesztéses forrasztás
+			\end{enumerate}
+
+		\subsection{Furatszerelt alkatrészek}
+
+			\begin{itemize}
+				\item \textcolor{red}{Hajlékony} vagy \textcolor{red}{merev} kivezetésekkel (alaktrészlábakkal) rendelkeznek. A hajlékony kivezetéseket a furatok helyzetének megfelelően méretre vágják és hajlítják.
+				\item A kivezetéseket a szerelőlemez furataiba illesztik és többnyire a másik oldalról forrasztják be. Ezért a csak furatszerellt alkatrészeket tartalmazó áramköröknél megkülönböztetünk \textcolor{red}{alkatrész-} és \textcolor{red}{forrasztási} oldalt.
+			\end{itemize}
+
+			\begin{center}\includegraphics[width=0.75\textwidth]{images/2.3/1.png}\end{center}
+
+		\subsection{Furatszerelt alkatrészek csoportosítása}
+
+			\begin{center}\includegraphics[width=.95\textwidth]{images/2.4/1.png}\end{center}
+
+		\subsection{Diszkrét furatszerelt alkatrészek (Passzív)}
+
+			\begin{center}\includegraphics[width=.95\textwidth]{images/2.5/1.png}\end{center}
+
+		\subsection{Furatszerelt aktív alkatrészek}
+
+			\begin{center}\includegraphics[width=.95\textwidth]{images/2.6/1.png}\end{center}
+
 \end{document}
