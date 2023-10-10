@@ -1,0 +1,36 @@
+\nobreakspace {}\hfill \textbf {Oldal}\par 
+\contentsline {section}{\numberline {1}(PWB) - Nyomtatott huzalozások technológiája}{2}{}%
+\contentsline {subsection}{\numberline {1.1}A mérés célja}{2}{}%
+\contentsline {subsection}{\numberline {1.2}A mérési feladat}{2}{}%
+\contentsline {subsection}{\numberline {1.3}A mérés elvégzésével megszerezhető képességek}{2}{}%
+\contentsline {subsection}{\numberline {1.4}A mérés során felmerülő fogalmak rövid meghatározása}{2}{}%
+\contentsline {subsubsection}{\numberline {1.4.1}Nyomtatott huzalozású hordozó (lemez)}{2}{}%
+\contentsline {subsubsection}{\numberline {1.4.2}Furatfémezés}{2}{}%
+\contentsline {subsubsection}{\numberline {1.4.3}Rajzolatfinomság}{2}{}%
+\contentsline {subsubsection}{\numberline {1.4.4}Fotolitográfia (fotoreziszt technológia)}{2}{}%
+\contentsline {subsubsection}{\numberline {1.4.5}Nedveskémiai bevonat-készítési technológiák}{3}{}%
+\contentsline {subsubsection}{\numberline {1.4.6}Alkalmazott technológiák}{3}{}%
+\contentsline {subsubsection}{\numberline {1.4.7}A nyomtatott huzalozású hordozók gyakrabban használt alapanyagai}{3}{}%
+\contentsline {subsection}{\numberline {1.5}A mérés menete}{4}{}%
+\contentsline {subsubsection}{\numberline {1.5.1}CNC fúrás}{4}{}%
+\contentsline {subsubsection}{\numberline {1.5.2}Nedves csiszolás}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.3}Furatfémezés}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.4}Fotoreziszt maszk készítés}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.5}Rajzolatgalvanizálás}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.6}Maszkeltávolítás és maratás}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.7}Forrasztásgátló maszk és szelektív forrasztható bevonat felvitele}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.8}Kontúrmarás}{5}{}%
+\contentsline {subsubsection}{\numberline {1.5.9}Ellenőrző kérdések}{5}{}%
+\contentsline {section}{\numberline {2}(DOE) - Számítógéppel segített kísérlettervezés}{6}{}%
+\contentsline {section}{\numberline {3}(CAD-PCB) - Nyomtatott áramköri kártyák tervezése}{7}{}%
+\contentsline {paragraph}{\numberline {3.0.0.1}A mérés célja:}{7}{}%
+\contentsline {paragraph}{\numberline {3.0.0.2}A mérési feladat:}{7}{}%
+\contentsline {paragraph}{\numberline {3.0.0.3}A mérés elvégzésével megszerezhető késségek:}{7}{}%
+\contentsline {paragraph}{\numberline {3.0.0.4}Forraszhuzal elvétele, megfelelő intermetallikus réteg kialakítása (500 ms-1 sec), végül a pákacsúcs elvétele}{7}{}%
+\contentsline {subsection}{\numberline {3.1}A mérés célja:}{7}{}%
+\contentsline {subsection}{\numberline {3.2}A mérési feladat:}{7}{}%
+\contentsline {subsection}{\numberline {3.3}A mérés elvégzésével megszerezhető késségek:}{7}{}%
+\contentsline {section}{\numberline {4}(CAD-3D) - Elektronikus áramkörök 3D tervezése}{8}{}%
+\contentsline {section}{\numberline {5}}{9}{}%
+\contentsline {section}{\numberline {6}(H.SOLD.) - Moduláramkör készítése kézi forrasztási technológiával}{10}{}%
+\contentsline {section}{\numberline {7}(SMT) - Újraömlesztéses felületszerelési technológia}{11}{}%
