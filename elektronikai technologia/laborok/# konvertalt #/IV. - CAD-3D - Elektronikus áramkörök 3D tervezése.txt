@@ -1,0 +1,232 @@
+Moduláramkör készítése kézi forrasztási technológiával
+A mérés célja: a kézi forrasztási technológia megismerése felület-és furatszerelt alkatrészeken.
+A mérési feladat: működőképes áramkör elkészítése; felületszerelt (SM) és furatszerelt (TH)
+alkatrészek beültetése, kézi beforrasztása a nyomtatott huzalozású lemezre, furatszerelt alkatrészek
+lábhajlítása, lábak méretre vágása, a PIC (programozható integrált áramkör) felprogramozása és az
+áramkör ellenőrzése.
+
+A mérés elvégzésével megszerezhető képességek: a forraszhuzalok, forrasztópákák és
+használatuk megismerése, a helyes kézi forrasztás sorrendje és üteme SM és TH alkatrészek esetén,
+forrasztások kézi javításának (rework) alapjai, minőségellenőrzés, fontosabb kézi forrasztási
+szabványok.
+
+A mérés során felmerülő fogalmak rövid meghatározása
+Forrasztás
+Anyaggal záró adhéziós-diffúziós kötés; a két vagy több összekötendő elemet egy azoktól
+különböző harmadik, alacsonyabb olvadáspontú fém (forrasz) segítségével kötjük össze. Anyagi
+szinten a kötést az intermetallikus réteg valósítja meg. Ez mechanikai és elektromos kötést egyaránt
+kialakít.
+Javítás, rework
+Automatizált gyártási technológiával készült moduláramkörök nem megfelelő forrasztásainak vagy
+hibáinak kézi javítása, amennyiben a termék minőségi és megbízhatósági szintje ezt megengedi. A
+legnagyobb megbízhatóságra kötelezett termékek esetén - pl. repülés- vagy autóelektronikai, orvosi,
+életvédelmi áramkörök - TILOS bármilyen javítást végezni! A javításhoz kapcsolódó rework
+szabvány: IPC-7711.
+Forraszötvözetek kézi forrasztáshoz
+Több, az elektronikában általában használatos ólomtartalmú és ólommentes (RoHS) ötvözetet
+alkalmazunk, pl. Sn63Pb37 eutektikus (op. 183 °C); SAC305 (Sn96,5Ag3,0Cu0,5) (op. 217 °C);
+Sn42Bi58 (op. 139-141 °C). Javításnál az eredetivel megegyező vagy ahhoz közel álló ötvözetet
+használjunk!
+Forraszhuzal
+Kézi forrasztáshoz használt forrasz kivitel. Folyasztószerrel (flux) töltött (egy vagy többcsatornás) ez az általánosan használt; vagy tömör - igen ritkán alkalmazzák. Átmérőjét mindig az adott
+forrasztási ponthoz válasszuk meg (3-4 mm hosszú forraszhuzal legyen elegendő egy
+csomóponthoz). Például: d = 0,25-0,5 mm átmérővel kis SMT-hez; d= 0,7 mm nagy SMD, kis
+THT; d= 1 mm THT-hoz.
+Folyasztószer kézi forrasztáshoz, rework-höz
+Forraszhuzalba töltött: mennyisége 1-3 súly%, természetes- vagy műgyanta alapú (lásd bővebben:
+SMT labor, előadások)
+Külön hozzáadott: gyártáshoz általában nem szükséges; javításhoz nélkülözhetetlen! Fajtái:
+folyékony folyasztószerrel töltött filctoll vagy üvegsörtés ecset-toll; zselés folyasztószer
+(fecskendőben). Fontos: a felvitt extra folyasztószer maradékát mindig el kell távolítani! (no-clean-t
+is, mert nem hőkezelt maradékuk károsíthatja az áramkört)
+Rework esetén mindig az eredetileg alkalmazott folyasztószerrel megegyező kategóriájú flux-ot
+vagy ilyennel töltött huzalt kell használni!
+
+1. ábra. Egy- és több flux csatornás forraszhuzalok, flux toll
+
+Forrasztási csomópont
+Az áramkörben az alkatrészek csatlakozási pontjai a nyomtatott huzalozású lemez csatlakozási
+pontjaihoz. Például: forrasztási felület (pad) és alkatrész kontaktusfelület vagy felületre simuló
+kivezető (SMT) között; forrszem, fémezett falú furat és alkatrész huzalkivezetők (THT) között. Egy
+forrasztási csomópont a kézi forrasztás egysége; pl. egy SOIC8-nál 8 forrasztási csomópont van;
+egy furatszerelt ellenállásnál 2.
+A forrasztás hőmérséklete
+A forrasztandó felületet 40 °C-kal a forrasz olvadáspontja fölé kell melegíteni és 1-5 másodpercig
+hőn tartani. Csak így alakítható ki a megfelelő vastagságú intermetallikus réteg, mely a forrasztott
+kötés lényege. NEM AZONOS a pákacsúcs hőmérsékletével!
+Forrasztópáka
+Különböző méretű és alakú heggyel rendelkező hőközlő berendezés, mely hővezetéssel adja át a hőt
+a forrasztási csomópontnak.
+Az ideális, gyors és hatékony hőátadás érdekében használjunk az alkatrészméretnek még megfelelő,
+a lehető legrövidebb és legvastagabb pákahegyet! A pákahegy jó nedvesíthetősége - ha tiszta,
+oxidmentes - a hatékony hőátadás egyik alapfeltétele.
+
+A pákacsúcs hőmérséklete
+Az a hőmérséklet, mely az adott idő alatt az adott hőátadási viszonyok mellett a csomóponton a
+forrasztás hőmérsékletét biztosítja. Általában kb. 100 °C-kal a kívánt felületi hőmérséklet felett
+megfelelő, de értéke függ a pákacsúcstól! Kísérletezzünk és válasszuk a lehetséges legalacsonyabb
+de a forrasztási feladatnak megfelelő hőmérsékletet! (SAC305-nél kb. 360 °C) Vigyázat! A panel
+hőtűrése miatt 370 °C-ot állítsanak be a maximum!
+A túl magas pákahőmérséklet rossz forrasztást (a folyasztószer hatástalansága miatt) valamint
+hőkárosodást okoz; a túl alacsony hőmérséklet a csomóponthoz kapcsolódó részek túlmelegedését
+okozza (mert így a hőhatás túl hosszú ideig éri ezeket).
+
+2. ábra. Forrasztópáka és forrasztóállomás; különféle pákahegyek
+
+Kézi pákás forrasztást az automata gyártósorok mellett alkalmaznak, a gépi úton nem vagy nehezen
+forrasztható csomópontoknál, emellett nélkülözhetetlen módja a javításnak, reworknek, így a
+fenntarthatóság fontos eszköze. Kis beruházásigényű, folyamatában ellenőrizhető és korrigálható
+módszer. Az alkatrész és a hordozó csak kis mértékben melegszik fel, közvetlen emberi munkaerőt
+igényel (ennek össszes előnyével és hátrányával). Minősége személyfüggő, ismételhetősége rossz,
+szigorú folyamatparaméterek állandóságának biztosítása nehezebb (minőségirányítás).
+I. táblázat. Az áramkör alkatrészjegyzéke
+Alkatrész azonosító
+
+Tokozás
+
+Jellemzők
+
+1206 CACE
+
+1 uF
+
+THT D=3mm, raszter:2,54 mm
+
+LED
+
+C1
+D1, D2, D3, D4, D5
+J1 tüskesor
+
+2,54 mm raszterű
+
+PIC programozó csatlakoztatásához
+
+R1, R2, R3, R4, R5
+
+1206 RES
+
+470 Ohm
+
+U1
+
+3,9 mm SO8
+
+PIC12F508 ISN
+
+A mérés menete
+A hallgatók a labor során 3. ábrán lévő áramkör forrasztásait készítik el.
+
+3. ábra. USB-táplálású vegyes szerelésű PIC-vezérlésű futófény
+
+1. A munka megtervezése, alkatrészek előkészítése
+Eszközök, szerszámok megismerése, az alkatrészek beforrasztási sorrendjének meghatározása
+Felületszerelt alkatrészeknél: alkatrészek azonosítása, orientáció meghatározása
+Furatszerelt alkatrészeknél: alkatrészek és orientációk azonosítása; alkatrészek furatba ültetése
+(paneltartó fészek segítségével: az alkatrészmagasság beállításához és a forrasztás
+megkönnyítéséhez)
+2. Megfelelő pákacsúcs és pákahőmérséklet kiválasztása, beállítása
+3. A kézi forrasztás műveleti lépései
+3.1. Felmelegedett forrasztópáka megtisztítása és előónozása
+3.2 Hővezető híd képzése: forrasztópáka ráhelyezése a forrasztandó felületre úgy, hogy
+mindkét összeforrasztandó felet egyszerre hevítse majd kevés forraszhuzal érintése a forrasztási
+csomóponthoz – hőközlés
+3.4 A forrasztási csomópont kialakítása: forrasz adagolása a pákával szemben, a forrasztandó
+felületre. A forraszhuzalt a pákacsúcshoz nyomni nem szabad, mert tönkremegy a folyasztószer!
+3.5 Forraszhuzal elvétele, megfelelő intermetallikus réteg kialakítása (500 ms-1 sec), végül
+a pákacsúcs elvétele
+Amíg nem szilárdult meg a forrasz, addig ne mozdítsuk meg a panelt!
+
+4. Felületszerelt alkatrészek beforrasztása: a hordozón az egyik forrasztási felület (pad)
+előónozása; alkatrész pozícionálás csipesszel; az alkatrész kivezetésének az előónozott
+kontaktusfelületre történő beforrasztása; helyes pozíció esetén a többi kivezetés beforrasztása
+5. Furatszerelt alkatrészek beforrasztása: alkatrészláb furatba forrasztása, megfelelő
+furatkitöltéssel és meniszkusszal; túlnyúló alkatrészlábak levágása - megfelelő magasságban
+A forrasztási, forraszthatósági szabványokat a J-STD-001-006 részletezi.
+Az áramkörünkön történő forrasztás előtt raszterpanelen gyakorolhatjuk a műveletet.
+
+4. ábra. Kézi forrasztás műveleti sorrendje felületszerelt alkatrész esetén
+
+5. ábra. Kézi forrasztás műveleti sorrendje furatszerelt csomóponton
+
+mechanikai feszültség
+
+raszter!
+
+6. ábra. Furatszerelt LED felépítése és beültetése
+
+6. Minőségellenőrzés
+IPC-A-610: Az áramkörök három minőségi osztálya Class 1-től Class 3-ig egyre szigorúbb
+követeleményeket ír elő; ezek betartása kötelező (nedvesítés mértéke, magassága a
+kivezetésen/lábon/vezetéken, furatkitöltés (mindkét oldalon!), meniszkusz alak, lábhajlítás alakja és
+beültetési magasság, stb.). A jó forrasztott kötés ismérvei a szabvány szerint: megfelelő pozíció
+(kontaktusfelület, kivezető), megfelelő alak (meniszkusz, láb), nedvesítés megléte (alkatrészen,
+paden, forrszemen), megfelelő forrasz mennyiség, sima fényes felület - ólommentesnél kevésbé
+tükörfényes, inkább matt a normális.
+
+7. ábra. Minőségi SM és TH forasztott kötések
+
+A kézi forrasztás hibái a nem megfelelő forraszmennyiség; óngolyó (fröccsenés); rövidzár;
+jégcsap (más néven szakáll vagy tüske) képződés (icicle); folyasztószer fröcskölés- és maradék;
+ráforrasztás (hidegforrasztás); nem (vagy nem megfelelő) nedvesítés; hordozó, alkatrész vagy
+szigetelés hőkárosodása (elszíneződés, pad lifting, megolvadás stb.); égett fluxmaradványok.
+Okai lehetnek: rosszul megválasztott forraszhuzal átmérő, túl nagy vagy kicsi pákahegy, rossz
+pákakezelés (túl lassú mozgatás, pákától kiégett folyasztószer, panel mozgatás), nem megfelelő
+pákacsúcs hőmérséklet, alkatrész bevonat hiba, stb.
+
+a)
+
+b)
+
+c)
+
+d)
+
+e)
+
+f)
+
+g)
+
+h)
+
+i)
+
+8. ábra. Tipikus kéziforrasztási hibák: a) túl kevés forrasz, b) túl sok forrasz, c) ráforrasztás,
+d) forrszem felválás, e) jégcsap-képződés, f) égett flux maradványok,
+g) forraszhíd, h) nem nedvesítés, i) forraszgolyók, nem nedvesítés, égett folyasztószer-maradványok.
+
+7. A PIC felprogramozása az 5 pólusú tüskesorhüvellyel (J1) megfelelő polaritással és
+pozícióban csatlakoztatva: 1: MCLR , 2: +5V, 3: GND, 4: PGD, 5: PGC; majd tesztelés USB
+táplálással (futófény).
+A program elérhető a honlapon: https://www.ett.bme.hu/oktatas/vietab00
+Az áramkör később tetszőlegesen átprogramozható, pl. lassabb vagy gyorsabb működés,
+„bitkukac”, fényoszlop, kerékpár hátsó lámpa, villogó, csak egy irányba futó vagy középről két
+oldalra futó fény, POV kijelző stb.
+
+9. ábra. PIC programozó készülék és a programozó csatlakozó lábkiosztása
+
+10. ábra.
+
+Az áramkörben használt PIC12F508 programozható mikrokontroller lábkiosztása
+
+Ellenőrző kérdések:
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+
+Jellemezze a forraszhuzalokat (anyag, átmérő, folyasztószer stb.)!
+Jellemezze a kézi forrasztáshoz alkalmazott folyasztószereket!
+Hogyan határozzuk meg a helyes pákahőmérsékletet? Kérem, adjon példát is rá
+(indoklással/ötvözettel)!
+Mi a helyes kézi forrasztás műveleti sorrendje?
+Mi az a rework?
+Mit ad meg az IPC-A-610 szabvány vizuális ellenőrzésre? Milyen a helyes forrasz alak?
+Soroljon fel 3-4 tipikus kézi forrasztási hibát! Adja meg kialakulásuk lehetséges okait és
+megelőzésük módszereit!
+
+

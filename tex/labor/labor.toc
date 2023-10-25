@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {3}(CAD-PCB) - Nyomtatott áramköri kártyák tervezése}{8}{}%
 \contentsline {paragraph}{\numberline {3.0.0.1}A mérés célja:}{8}{}%
 \contentsline {paragraph}{\numberline {3.0.0.2}A mérési feladat:}{8}{}%
-\contentsline {paragraph}{\numberline {3.0.0.3}A mérés elvégzésével megszerezhető késségek:}{8}{}%
+\contentsline {paragraph}{\numberline {3.0.0.3}A mérés elvégzésével megszerezhető késség ek:}{8}{}%
 \contentsline {subsection}{\numberline {3.1}Bevezetés}{8}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}Általános bevezetés, a Design Flow fogalma}{8}{}%
 \contentsline {section}{\numberline {4}(CAD-3D) - Elektronikus áramkörök 3D tervezése}{9}{}%

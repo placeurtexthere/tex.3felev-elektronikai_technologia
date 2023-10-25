@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.12)  10 OCT 2023 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.12)  15 OCT 2023 12:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,18 +284,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ] [4]) [5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [6] (./sections/doe/doe.tex) [7
 
 ] (./sections/cad-pcb/cad-pcb.tex
-Overfull \hbox (16.92166pt too wide) in paragraph at lines 16--17
- \OT1/cmr/bx/n/12 (-20) 3.0.0.2 A m^^Ser^^Sesi fe-la-dat:[] \OT1/cmr/m/n/12 (-20) A m^^Ser^^Sesvezet}o ir^^Sany^^S^^Pt^^Sas^^Saval a hall-gat^^Sok sz^^Sam^^S^^Pt^^Sog^^Sepes ^^Saramk^^?ortervez}o
- []
-
-
-Overfull \hbox (2.81935pt too wide) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/12 (-20) A sz^^Sam^^S^^Pt^^Sog^^Sepek hat^^Sekony munk^^Sat tesznek lehet}ov^^Se a m^^Sern^^?ok^^?ok sz^^Sam^^Sara. Az els}o sz^^Sam^^S^^Pt^^Sog^^Seppel
- []
-
-
-Overfull \hbox (15.0309pt too wide) in paragraph at lines 26--27
-\OT1/cmr/m/n/12 (-20) t^^Samogatott megold^^Sasok a m^^Sasodik vil^^Sagh^^Sabor^^Su ut^^San je-len-tek meg, amikor az akkori alapsz^^Sam^^S^^Pt^^Sog^^Sepek
+Underfull \hbox (badness 1430) in paragraph at lines 16--17
+ \OT1/cmr/bx/n/12 (+20) 3.0.0.2 A m^^Ser^^Sesi fe-la-dat:[] \OT1/cmr/m/n/12 (+20) A m^^Ser^^Sesvezet}o ir^^Sany^^S^^Pt^^Sas^^Saval a hall-gat^^Sok sz^^Sam^^S^^Pt^^Sog^^Sepes
  []
 
 ) [8
@@ -323,7 +313,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,6n,65p,1552b,226s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on labor.pdf (13 pages, 122432 bytes).
+Output written on labor.pdf (13 pages, 121906 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
